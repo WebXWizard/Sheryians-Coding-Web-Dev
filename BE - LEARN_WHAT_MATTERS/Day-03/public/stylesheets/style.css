@@ -1,0 +1,72 @@
+ :root {
+      --primary-color: #4e73df;
+      --secondary-color: #1cc88a;
+      --warning-color: #f6c23e;
+      --danger-color: #e74a3b;
+    }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      background-color: #f8f9fc;
+    }
+
+    .navbar-brand {
+      font-weight: 700;
+    }
+
+    .sidebar {
+      min-height: 100vh;
+      background-color: #36b9cc;
+      transition: all 0.3s;
+    }
+
+    .nav-item .nav-link {
+      color: #f8f9fc;
+      padding: 1rem;
+    }
+
+    .nav-item .nav-link:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 0.35rem;
+    }
+
+    .card {
+      border: none;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-header {
+      background-color: #fff;
+      border-bottom: 1px solid #e3e6f0;
+      padding: 1rem;
+      font-weight: 600;
+    }
+
+    .stat-card {
+      overflow: hidden;
+    }
+
+    .stat-card .icon {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      font-size: 2.5rem;
+      opacity: 0.2;
+    }
+
+    .chart-container {
+      position: relative;
+      height: 300px;
+      width: 100%;
+    }
+
+    .footer {
+      background-color: #fff;
+      box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+    }

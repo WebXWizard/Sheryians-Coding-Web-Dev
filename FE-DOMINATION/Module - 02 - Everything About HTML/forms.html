@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <!-- Forms are used to collect data from the user -->
+
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" placeholder="name" id="name" name="name" required />
+      <br /><br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        placeholder="email"
+        id="email"
+        name="email"
+        required
+      />
+      <br /><br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        placeholder="password"
+        id="password"
+        name="password"
+        required
+      />
+      <br /><br />
+      <input type="checkbox" name="" id="" />
+      <label for="checkbox">Checkbox</label>
+      <br /><br />
+      <input type="radio" name="a" id="" /> Male
+      <input type="radio" name="a" id="" /> Female
+      <input type="radio" name="a" id="" /> Other <br /><br />
+      <input type="file" name="" id="" /><br /><br />
+      <input type="range" name="" id="" /><br /><br />
+      <input type="date" name="" id="" /><br /><br />
+      <input type="color" name="" id="" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <br /><br />
+    <hr />
+
+    <!-- ---------------------------------- -->
+
+    <form action="https://www.google.com" method="get">
+      <label for="name">Name:</label>
+      <input type="text" placeholder="name" id="name" name="name" required />
+      <br /><br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        placeholder="email"
+        id="email"
+        name="email"
+        required
+      />
+      <br /><br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        placeholder="password"
+        id="password"
+        name="password"
+        required
+      />
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <br /><br />
+
+    <!-- Creation of Form: Forms are used to collect data from the user -->
+
+    <h2>Forms in HTML</h2>
+
+    <form action="/action" border="black">
+      <input />
+      <br />
+      <br />
+      <!-- input element : Used to create multiple form controls.There are multiple type of inputs that can be created using type Attributes
+       input type="  " : Controls what info filled 
+       placeholder=" " : Attributes
+       label for=" " : Caption for an item in user interface
+       id=" " : Unique name for an Element
+       for=" ": Connection with id
+       button : Action perform with action (Submitted data)
+       button type=" " : Submit,Button,Reset
+       name=" Value " : When it Redirects then its info will be shown in URL for Access Backend
+       -->
+      <div>
+        <label for="username">
+          Username:
+          <input
+            type="text"
+            name="user"
+            id="username"
+            placeholder="Enter Username"
+          />
+        </label>
+      </div>
+      <br />
+      <div>
+        <label for="password">
+          Password:
+          <input
+            type="password"
+            name="pass"
+            placeholder="Enter Password"
+            id="password"
+          />
+        </label>
+      </div>
+      <!-- name:value pair  http://127.0.0.1:5500/action?username=abcd&password=abcd -->
+      <br />
+      <div>
+        <label for="age">
+          Age:
+          <input type="number" name="" id="age" placeholder="Enter Your Age" />
+        </label>
+      </div>
+      <br />
+
+      Time
+      <input type="time" name="" id="" />
+      <br />
+      <br />
+      Color
+      <input type="color" name="" id="" />
+      <br />
+      <br />
+      Date
+      <input type="date" name="" id="" />
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+      <button type="button">Button</button>
+      <button type="reset">Reset</button>
+      <br />
+      <br />
+      <!--  -->
+      <input type="submit" value="Submit" />
+      <input type="button" value="Click Me" />
+    </form>
+    <hr />
+
+    <!-- Extra -->
+    <form action="https://www.youtube.com/results">
+      <input
+        type="text"
+        name="search_query"
+        id=""
+        placeholder="Search in YouTube"
+      />
+      <button>Search</button>
+    </form>
+    <!--  -->
+
+    <form action="/action.php">
+      <h2>Registration Form</h2>
+      <input type="text" placeholder="Enter Username" />
+      <br />
+      <br />
+      <input type="password" placeholder="Enter Password" />
+      <br />
+
+      <h4>Select Your Class</h4>
+      <label for="101">
+        <input type="radio" value="class XI" name="class" id="101" />Class XI
+      </label>
+      <br />
+      <br />
+      <label for="102">
+        <input type="radio" value="class XII" name="class" id="102" />Class XII
+      </label>
+      <br />
+
+      <h4>Select Your Fav Subject</h4>
+      <label for="Maths">
+        <input type="checkbox" value="math" name="subject" id="101" />Maths
+      </label>
+      <br />
+      <br />
+
+      <label for="Physics">
+        <input type="checkbox" value="phy" name="subject" id="102" />Physics
+      </label>
+      <br />
+      <br />
+
+      <label for="Chemistry">
+        <input type="checkbox" value="chem" name="subject" id="103" />Chemistry
+      </label>
+      <br />
+      <br />
+
+      <label for="ComputerScience">
+        <input type="checkbox" value="cs" name="subject" id="104" />Computer
+        Science
+      </label>
+      <br />
+      <br />
+
+      Select Your Course :
+      <select name="city">
+        <option value="Course">Full Stack Dev</option>
+        <option>Data Structures</option>
+        <option>Python Data Science Dev</option>
+        <option>AI and ML</option>
+      </select>
+
+      <br />
+      <br />
+      <textarea
+        name="Feedback"
+        id="101"
+        placeholder="Please Give Your Feedback Here"
+        rows="2"
+      ></textarea>
+      <br />
+      <br />
+
+      <input type="submit" value="Submit" />
+    </form>
+
+    <br />
+    <hr />
+    <br />
+  </body>
+</html>

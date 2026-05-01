@@ -1,0 +1,55 @@
+
+✅5 - CSS Basics - Styling things up - 5 Days
+
+1 - CSS SetUp :
+    Repetition Steps : 
+        Html File with Boilerplate Code
+        CSS File
+        Boilerplate Code of CSS File
+        Link CSS File to HTML
+
+2 - Width and Height  
+
+3 - Color and Background Color
+
+4 - Units :
+    px, %, vw, vh, em, rem
+
+5 - Max-width and Max-height
+
+6 - Font-family - serif and sans-serif(No Sharp Edges)
+
+7 - Font-family, size, weight, Text-transform and decoration 
+    Line-height, text-align
+
+8 - Line Height and text-align
+
+9 - Padding 
+
+10 - Margin
+
+11 - Border and border-radius
+
+12 - Display Properties - Block Inline and Inline-block
+
+13 - Position - absolute and relative
+
+14 - Background Properties - url, size, position, repeat and linear gradient 
+
+
+15 - Flex-Box
+
+16 - Pseudo-elements and Pseudo-classes
+
+17 - Understanding Color Science
+
+
+✅6 - CSS Grid Layout - 2 Days
+
+    Grid Project Using Grid Concepts
+
+✅7 - CSS Projects - Elevate Your Design Skills - 1 Week
+
+    1. Shop Jacket
+    2. Cotton Weave
+    3. TrendLine

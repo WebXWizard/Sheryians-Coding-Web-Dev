@@ -1,0 +1,344 @@
+
+  ✅3 - HTML - Making Architecture
+  ✅4 - HTML5 - Semantic
+
+<!DOCTYPE html>
+<!-- This is a simple HTML document structure -->
+<html lang="en">
+  <!-- The lang attribute specifies the language of the document -->
+
+  <head>
+    <!-- The head element contains meta-information about the document -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- The title element specifies the title of the document, which is displayed in the browser's title bar or tab -->
+  </head>
+
+  <!-- <opening tag> Content </closing tag> -->
+
+  <!-- The body element contains the content of the document -->
+  <body>
+    <!-- The body element contains the content of the document -->
+
+    <!-- Headings (Head Tags) -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!-- Paragraph Tag -->
+    Lorem ipsum dolor sit amet consectetur.
+
+    <p>This is a simple HTML document.</p>
+
+    <!-- Bold, Italic, Underline, Subscript and Superscript  -->
+    <b>Bold</b>
+    <i>Lorem.</i>
+    <u>sit</u>
+    <p>2<sup>2</sup> = 4</p>
+    <p>CO<sub>2</sub> is gas.</p>
+
+    <!-- Break and Horizontal row Tag -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae libero
+      <br />
+      et corrupti sequi culpa nesciunt assumenda ipsum, expedita, rerum,
+      praesentium laborum obcaecati tenetur tempore quis architecto veritatis
+      aspernatur a. Laborum!
+    </p>
+    <hr />
+
+    <!-- List and its Types -->
+
+    <h2>Unordered List</h2>
+    <!-- Bullets Points -->
+    <ul>
+      <li>MongoDb</li>
+      <li>ExpressJs</li>
+      <li>ReactJs</li>
+      <li>
+        NodeJs
+        <ul>
+          <li>JavaScript Library</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <!-- Numbers -->
+    <ol type="a">
+      <li>MongoDb</li>
+      <li>ExpressJs</li>
+      <li>ReactJs</li>
+      <ul>
+        <li>JavaScript Library</li>
+      </ul>
+      <li>NodeJs</li>
+      <ol type="A">
+        <li>JavaScript Library</li>
+      </ol>
+    </ol>
+
+    <h2>Description List</h2>
+    <dl>
+      <dt>HTML</dt>
+      <dd>This adds Structure to a web Page</dd>
+      <br />
+      <dt>CSS</dt>
+      <dd>This adds Style to a web Page</dd>
+      <br />
+      <dt>JavaScript</dt>
+      <dd>This adds functionality to a web Page</dd>
+    </dl>
+    <hr />
+    <br />
+
+    <!-- Anchor Tag -->
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.google.com" target="_blank">Google</a>
+
+    <!-- Image Tag -->
+    <img
+      src="https://plus.unsplash.com/premium_photo-1672582776474-fc85ebaa1b73?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt=" Image"
+      height="400px"
+    />
+    <hr />
+    <br />
+
+    <!-- Creation of Form: Forms are used to collect data from the user -->
+
+    <h2>Forms in HTML</h2>
+
+    <form action="/action" border="black">
+      <input />
+      <br />
+      <br />
+      <!-- input element : Used to create multiple form controls.There are multiple type of inputs that can be created using type Attributes
+       input type="  " : Controls what info filled 
+       placeholder=" " : Attributes
+       label for=" " : Caption for an item in user interface
+       id=" " : Unique name for an Element
+       for=" ": Connection with id
+       button : Action perform with action (Submitted data)
+       button type=" " : Submit,Button,Reset
+       name=" Value " : When it Redirects then its info will be shown in URL for Access Backend
+       -->
+      <div>
+        <label for="username">
+          Username:
+          <input
+            type="text"
+            name="user"
+            id="username"
+            placeholder="Enter Username"
+          />
+        </label>
+      </div>
+      <br />
+      <div>
+        <label for="password">
+          Password:
+          <input
+            type="password"
+            name="pass"
+            placeholder="Enter Password"
+            id="password"
+          />
+        </label>
+      </div>
+      <!-- name:value pair  http://127.0.0.1:5500/action?username=abcd&password=abcd -->
+      <br />
+      <div>
+        <label for="age">
+          Age:
+          <input type="number" name="" id="age" placeholder="Enter Your Age" />
+        </label>
+      </div>
+      <br />
+
+      Time
+      <input type="time" name="" id="" />
+      <br />
+      <br />
+      Color
+      <input type="color" name="" id="" />
+      <br />
+      <br />
+      Date
+      <input type="date" name="" id="" />
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+      <button type="button">Button</button>
+      <button type="reset">Reset</button>
+      <br />
+      <br />
+      <!--  -->
+      <input type="submit" value="Submit" />
+      <input type="button" value="Click Me" />
+    </form>
+    <hr />
+
+    <!-- Extra -->
+    <form action="https://www.youtube.com/results">
+      <input
+        type="text"
+        name="search_query"
+        id=""
+        placeholder="Search in YouTube"
+      />
+      <button>Search</button>
+    </form>
+    <!--  -->
+
+    <form action="/action.php">
+      <h2>Registration Form</h2>
+      <input type="text" placeholder="Enter Username" />
+      <br />
+      <br />
+      <input type="password" placeholder="Enter Password" />
+      <br />
+
+      <h4>Select Your Class</h4>
+      <label for="101">
+        <input type="radio" value="class XI" name="class" id="101" />Class XI
+      </label>
+      <br />
+      <br />
+      <label for="102">
+        <input type="radio" value="class XII" name="class" id="102" />Class XII
+      </label>
+      <br />
+
+      <h4>Select Your Fav Subject</h4>
+      <label for="Maths">
+        <input type="checkbox" value="math" name="subject" id="101" />Maths
+      </label>
+      <br />
+      <br />
+
+      <label for="Physics">
+        <input type="checkbox" value="phy" name="subject" id="102" />Physics
+      </label>
+      <br />
+      <br />
+
+      <label for="Chemistry">
+        <input type="checkbox" value="chem" name="subject" id="103" />Chemistry
+      </label>
+      <br />
+      <br />
+
+      <label for="ComputerScience">
+        <input type="checkbox" value="cs" name="subject" id="104" />Computer
+        Science
+      </label>
+      <br />
+      <br />
+
+      Select Your Course :
+      <select name="city">
+        <option value="Course">Full Stack Dev</option>
+        <option>Data Structures</option>
+        <option>Python Data Science Dev</option>
+        <option>AI and ML</option>
+      </select>
+
+      <br />
+      <br />
+      <textarea
+        name="Feedback"
+        id="101"
+        placeholder="Please Give Your Feedback Here"
+        rows="2"
+      ></textarea>
+      <br />
+      <br />
+
+      <input type="submit" value="Submit" />
+    </form>
+
+    <br />
+    <hr />
+    <br />
+
+    <!-- Forms -->
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" placeholder="name" id="name" name="name" required />
+      <br /><br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        placeholder="email"
+        id="email"
+        name="email"
+        required
+      />
+      <br /><br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        placeholder="password"
+        id="password"
+        name="password"
+        required
+      />
+      <br /><br />
+      <input type="checkbox" name="" id="" />
+      <label for="checkbox">Checkbox</label>
+      <br /><br />
+      <input type="radio" name="a" id="" /> Male
+      <input type="radio" name="a" id="" /> Female
+      <input type="radio" name="a" id="" /> Other <br /><br />
+      <input type="file" name="" id="" /><br /><br />
+      <input type="range" name="" id="" /><br /><br />
+      <input type="date" name="" id="" /><br /><br />
+      <input type="color" name="" id="" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <br /><br />
+
+    <form action="https://www.google.com" method="get">
+      <label for="name">Name:</label>
+      <input type="text" placeholder="name" id="name" name="name" required />
+      <br /><br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        placeholder="email"
+        id="email"
+        name="email"
+        required
+      />
+      <br /><br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        placeholder="password"
+        id="password"
+        name="password"
+        required
+      />
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <br /><br />
+    <hr />
+    <audio src="/Week - 02/Afsos - Anuv Jain.mp3" controls></audio>
+    <video
+      src="/Week - 02/VID_20221230164534.mp4"
+      autoplay
+      muted
+      controls
+      loop
+    ></video>
+
+    <br /><br />
+  </body>
+</html>

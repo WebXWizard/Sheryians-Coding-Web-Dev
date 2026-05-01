@@ -1,0 +1,131 @@
+/* BoilerPlate Code */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: beige;
+}
+
+#nav1 {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+#left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.gola {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+#right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  cursor: pointer;
+}
+
+#right h4{
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+#right h4 span{
+    color: rgb(104, 104, 106);
+    margin-left: 25px;
+}
+
+#nav2{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    gap: 40px;
+    
+}
+
+#nav2 h4{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#content{
+    width: 100%;
+    height: calc(100% - 150px);
+}
+
+#center{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+}
+#center::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+   
+}
+
+#center::-webkit-scrollbar-thumb{
+    background-color: orangered;
+
+}
+.elem{
+    height: 100%;
+    width: 50%;
+     flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elem h1{
+    font-size: 80px;
+    font-weight: 100;
+}
+
+#bottom{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    overflow-x: auto;
+   
+}
+#bottom::-webkit-scrollbar{
+    display: none;
+}
+
+#bottom img {
+    flex-shrink: 0;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+

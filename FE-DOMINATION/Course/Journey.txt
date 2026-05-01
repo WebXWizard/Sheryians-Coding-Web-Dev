@@ -1,0 +1,52 @@
+ ✅ Frontend Domination - 
+
+   A- Getting Started Stuff - 1 Week
+
+    ✅1 - Essentials - So you don’t fail
+    ✅2 - Introduction - Getting Started
+
+   B- Everything About HTML - 1 Week
+
+    ✅3 - HTML - Making Architecture
+    ✅4 - HTML5 - Semantic
+
+   C- Everything About CSS - 1 Months
+
+    ✅5 - CSS Basics - Styling things up - 5 Days
+    ✅6 - CSS Grid Layout - 2 Days
+    ✅7 - CSS Projects - Elevate Your Design Skills - 1 Week
+    ✅8 - Responsive Web Development - 2 Days
+    ✅9 - CSS Animations - Styling things up - 1 Week
+    ✅10 - CSS Responsive Project
+    ✅11 - CSS Bonus Project
+
+   D - Everything About JavaScript - 2 Months
+
+    ✅12 - JavaScript - Everything about JavaScript
+    ✅13 - Advance JavaScript - God level JS
+    ✅14 - JS Animations - DOM Functionality Adding Interactivity
+    ✅15 - JS Tasks - Mastering practical development challenges
+    ✅16 - JS Interview Preparation
+
+   E - Everything About Animations - 1 Months
+
+    ✅17 - GSAP, ScrollTrigger, Locomotive - Fun Stuff
+
+
+   F - Project - 2 Week
+
+    ✅18 - Final Project
+
+   F - Extra Stuff - 1 Months
+    
+    ✅19 - Tailwind CSS
+    ✅20 - Everything About React JS
+    ✅21 - Asynchronous Javascript
+    ✅22 - Real Life Developer Problems
+    ✅23 - Redux
+    ✅24 - React JS Major Project
+
+
+
+
+  

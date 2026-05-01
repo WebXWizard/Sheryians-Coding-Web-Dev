@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  padding: 5vw;
+}
+
+
+button{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid cyan;
+    color: cyan;
+    font-weight: 600;
+    position: relative;
+    transition: all linear 0.5s;
+    overflow: hidden;
+     z-index: 0; /* stacking context create */
+
+}
+
+button::after{
+    content: "";
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: cyan;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: all linear 0.5s;
+    z-index: -1;
+  
+
+}
+
+button:hover::after{
+     transform: translate(-50%,-50%) scale(3);
+
+}
+
+button:hover{
+    color: black;
+}
+
+
+
+h1{
+    font-size: 80px;
+    color: aqua;
+}
+
+h1::after{
+    content: " and unki dostniyo";
+    color: blue;
+    font-size: 100px;
+}
+
+h1::before{
+    content: "Hihihih";
+    color: blue;
+    font-size: 40px;
+}
+
+
+
+#box1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+  animation: box;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+}
+
+#box1::after{
+    content: "Kaise ho  ???";
+}
+#box1::before{
+    content: "Hihiiu";
+}
+
+#box2 {
+  width: 200px;
+  height: 200px;
+  background-color: teal;
+  position: relative;
+  animation: box;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes box {
+  from {
+    left: 0;
+    background-color: red;
+    rotate: 0;
+  }
+  to {
+    left: 75%;
+  }
+}
